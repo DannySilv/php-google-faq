@@ -40,21 +40,36 @@ header {
   width: 95%;
   height: 100%;
   margin: 0 auto;
-  justify-content: center;
 }
 
 .row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin-block: auto;
 }
 
 .img-container {
-  width: 10%;
+  width: 5rem;
+}
+
+.row > li {
+  margin-right: 2rem;
+  color: #5f6368;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+h3 {
+  color: #5f6368;
+  font-weight: 600;
+}
+
+i {
+  margin-left: auto;
 }
 
 main {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
 }
 

@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <?php
@@ -74,9 +75,18 @@
     <div class="header-container">
       <div class="row">
         <div class="img-container">
-        <img src="./img/google-logo.png" alt="GoogleLogo">
+          <img src="./img/google-logo.png" alt="GoogleLogo">
         </div>
+        <h3>Privacy e termini</h3>
+        <i class="fas fa-th"></i>
       </div>
+      <ul class="row">
+        <li>Introduzione</li>
+        <li>Norme sulla privacy</li>
+        <li>Termini di servizio</li>
+        <li>Tecnologie</li>
+        <li class="active">Domande frequenti</li>
+      </ul>
     </div>
   </header>
 
